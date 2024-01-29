@@ -80,8 +80,10 @@ section{
 .about-img{
     height: 400px;
     width: fit-content;
-       border-color: rgb(43, 226, 58);
+    border: var(--main-color);
+    border-radius: 300px;
     margin-right: 20px;
+    box-shadow: 0 0 1rem var(--main-color);
 }
 .heading{
     text-align: center;
